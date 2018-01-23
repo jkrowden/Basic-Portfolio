@@ -37,7 +37,7 @@ button{
 /*---------------------Header----------------------------*/
 
 /*-------------------Main div - About-----------------*/
-.contentseperator{
+.content_seperator{
 	background-color: #cccccc;
 	width: 86%;
 	height: 2px;
@@ -58,7 +58,7 @@ button{
 	display: inline-block;
 }
 
-.maincontent{
+.main_content{
 	border: solid 2px #666666;
 	width: 650px;
 	height: 400px;
@@ -68,17 +68,17 @@ button{
 	background-color: #ffffff;
 }
 
-.maincontent.contact{
+.main_content.contact{
 	height: 575px;
 }
 
-.mainparagraph{
+.main_paragraph{
 	padding-right: 25px;
 	padding-left: 25px;
 	float: left;
 }
 
-.mainparagraph p:nth-of-type(n+2){
+.main_paragraph p:nth-of-type(n+2){
 	border-left: solid 25px white;
 }
 /*-------------------Main div - About-----------------*/
@@ -117,10 +117,10 @@ button.button_submit{
 /*-------------------Main div - Contact-----------------*/
 
 /*-------------------------Sidebar-----------------------*/
-.sidebar{
+.side_bar{
+	float: left;
 	border: groove 2px #666666;
 	border-radius: 25px;
-	float: left;
 	width: 270px;
 	height: 175px;
 	margin-top: 3%;
@@ -134,7 +134,7 @@ button.button_submit{
 	height: 64px;
 }
 
-.sidebar .contentseperator{
+.side_bar .content_seperator{
 	height: 1px;
 	border-bottom: solid 20px white;
 }
@@ -142,15 +142,19 @@ button.button_submit{
 
 /* ----------------------Footer-------------------------- */
 .footer{
-	float: left;
 	width: 100%;
 	height: 100px;
+
 	text-align: center;
 	vertical-align: middle;
+
 	padding-top: 30px;
 	border-top: outset 10px #4aaaa5;
 
 	background-color: #666666;
+	
+	position: absolute;
+	bottom: 0;
 }
 
 .footer p{
