@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!--Title that appears in the tab of browser-->
 	<title>Josh's Portfolio</title>
-	<!--Link the reset.css to the html-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 	<!--Favicon for tab icon link-->
 	<link rel="icon" href="assets/images/favicon.ico">
+
+	<!--Link the reset.css to the html-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Boostrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
+
+	<!-- Link the stylesheet style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/c3820a5f25.js"></script>
 </head>
 
 
@@ -22,17 +35,22 @@
 
 		<nav class="nav">
 
-			<!--Links on the top right of the page-->
-			<div class="toplink">
-				<h2><a href="./contact.html">Contact</a></h2>
-			</div>
-
-			<div class="toplink">
-				<h2><a href="./portfolio.html">Portfolio</a></h2>
-			</div>
-
-			<div class="toplink">
-					<h2><a href="./index.html">About</a></h2>
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./index.html">About</a>
+					</h2>
+				</button>
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./portfolio.html">Portfolio</a>
+					</h2>
+				</button>
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./contact.html">Contact</a>
+					</h2>
+				</button>
 			</div>
 
 		</nav>
@@ -41,46 +59,55 @@
 
 	<section class="bodypart">
 		<!--Main content (title of page with image/paragraph) goes here-->
-			<section class="maincontent">
-				<h2 class="paragraph_header">About Me</h2>
-		
-				<!--Bar that seperates title from paragraph-->
-				<div class="contentseperator">
-		
-				</div>
-				<!--Section that holds the main paragraph-->
-				<section class="mainparagraph">
-					<p>
-						<img align="left" class="profile_img" src="./assets/images/me.jpg">
-					</p>
+		<section class="maincontent">
+			<h2 class="paragraph_header">About Me</h2>
 
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa inventore harum ullam maiores amet nisi vel molestias error iure. Voluptas, est? Optio minima cum laborum laudantium officia voluptatibus, dignissimos quidem?
-					</p>
+			<!--Bar that seperates title from paragraph-->
+			<div class="contentseperator">
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil porro, vero officiis et maiores veritatis incidunt pariatur eligendi eum tempore facilis exercitationem illo amet enim. Itaque nulla facere labore animi.</p>
+			</div>
+			<!--Section that holds the main paragraph-->
+			<section class="mainparagraph">
+				<p>
+					<img align="left" class="profile_img" src="./assets/images/me.jpg">
+				</p>
 
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sunt facilis rerum mollitia, aspernatur rem asperiores sed quia adipisci doloremque consequatur labore quod error inventore expedita esse nihil perferendis consequuntur.</p>
-					
-				</section>
-				 
-			</section>
-		
-			<!--Sidebar section-->
-			<section class="sidebar">
-				<h3>Connect with Me</h3>
-		
-				<!--Bar that seperates title from links below-->
-				<div class="contentseperator"></div>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa inventore harum ullam maiores amet nisi vel molestias error
+					iure. Voluptas, est? Optio minima cum laborum laudantium officia voluptatibus, dignissimos quidem?
+				</p>
 
-				<!--Social contact images links-->
-				<a href="https://github.com/jkrowden" target="_blank"><img class="icon" src="./assets/images/icons/github_icon.png"></a>
-				<a href="https://www.linkedin.com/in/jkrowden/" target="_blank"><img class="icon" src="./assets/images/icons/linkedin_icon.png"></a>
-				<a href="https://stackoverflow.com/" target="_blank"><img class="icon" src="./assets/images/icons/overflow_icon.png"></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil porro, vero officiis et maiores veritatis incidunt pariatur
+					eligendi eum tempore facilis exercitationem illo amet enim. Itaque nulla facere labore animi.</p>
 
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sunt facilis rerum mollitia, aspernatur rem
+					asperiores sed quia adipisci doloremque consequatur labore quod error inventore expedita esse nihil perferendis consequuntur.</p>
 
 			</section>
+
 		</section>
+
+		<!--Sidebar section-->
+		<section class="sidebar">
+			<h3>Connect with Me</h3>
+
+			<!--Bar that seperates title from links below-->
+			<div class="contentseperator"></div>
+
+			<!--Social contact images links-->
+			<a href="https://github.com/jkrowden" target="_blank">
+				<img class="icon" src="./assets/images/icons/github_icon.png">
+			</a>
+			<a href="https://www.linkedin.com/in/jkrowden/" target="_blank">
+				<img class="icon" src="./assets/images/icons/linkedin_icon.png">
+			</a>
+			<a href="https://stackoverflow.com/" target="_blank">
+				<img class="icon" src="./assets/images/icons/overflow_icon.png">
+			</a>
+
+
+		</section>
+	</section>
 
 	<section class="footer">
 		<!--center copyright text-->
@@ -88,4 +115,5 @@
 	</section>
 
 </body>
+
 </html>

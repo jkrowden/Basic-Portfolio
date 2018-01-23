@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!--Title that appears in the tab of browser-->
 	<title>Josh's Portfolio</title>
-	<!--Links the stylesheet from the assets folder-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 	<!--Favicon for tab icon link-->
 	<link rel="icon" href="assets/images/favicon.ico">
+
+	<!--Link the reset.css to the html-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Boostrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
+
+	<!-- Link the stylesheet style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/c3820a5f25.js"></script>
 </head>
 
 
@@ -20,71 +33,84 @@
 			<h1>Josh Rowden</h1>
 		</div>
 
-		<section class="nav">
+		<!-- Nav bar -->
+		<nav class="nav">
 
-			<!--Links on the top right of the page-->
-			<div class="toplink">
-					<h2><a href="./contact.html">Contact</a></h2>
-				</div>
-
-				<div class="toplink">
-						<h2><a href="./portfolio.html">Portfolio</a></h2>
-					</div>
-
-			<div class="toplink">
-					<h2><a href="./index.html">About</a></h2>
+			<div class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./index.html">About</a>
+					</h2>
+				</button>
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./portfolio.html">Portfolio</a>
+					</h2>
+				</button>
+				<button type="button" class="btn btn-default">
+					<h2>
+						<a href="./contact.html">Contact</a>
+					</h2>
+				</button>
 			</div>
 
-		</section>
+		</nav>
 
 	</section>
 
 	<section class="bodypart">
 		<!--Main content (title of page with image/paragraph) goes here-->
-			<section class="maincontent contact">
-				<h2 class="paragraph_header">Contact</h2>
-		
-				<!--Bar that seperates title from paragraph-->
-				<div class="contentseperator">
-		
-				</div>
-				<!--Section that holds the main paragraph-->
-				<section class="mainparagraph">
+		<section class="maincontent">
+			<h2 class="paragraph_header">Contact</h2>
 
-					<p class="contact">Name</p>
+			<!--Bar that seperates title from paragraph-->
+			<div class="contentseperator">
 
-					<input type="text" name="name" placeholder="   Name">
+			</div>
+			<!--Section that holds the main paragraph-->
+			<section class="mainparagraph">
 
-					<p class="contact">Email</p>
-					
-					<input type="text" name="email" placeholder="   Email">
+				<p class="contact">Name</p>
 
-					<p class="contact">Message</p>
+				<input type="text" name="name" placeholder="   Name">
 
-					<textarea class="message" name="message" type="text" placeholder="This site is awesome!."></textarea>
+				<p class="contact">Email</p>
 
-					<br><br>
+				<input type="text" name="email" placeholder="   Email">
 
-					<button class="button_submit">Submit</button>
-				</section>
-				 
+				<p class="contact">Message</p>
+
+				<textarea class="message" name="message" type="text" placeholder="This site is awesome!."></textarea>
+
+				<br>
+				<br>
+
+				<button class="button_submit">Submit</button>
 			</section>
-		
-			<!--Sidebar section-->
-			<section class="sidebar">
-				<h3>Connect with Me</h3>
-		
-				<!--Bar that seperates title from links below-->
-				<div class="contentseperator"></div>
 
-				<!--Social contact images links-->
-				<a href="https://github.com/jkrowden" target="_blank"><img class="icon" src="./assets/images/icons/github_icon.png"></a>
-				<a href="https://www.linkedin.com/in/jkrowden/" target="_blank"><img class="icon" src="./assets/images/icons/linkedin_icon.png"></a>
-				<a href="https://stackoverflow.com/" target="_blank"><img class="icon" src="./assets/images/icons/overflow_icon.png"></a>
-
-
-			</section>
 		</section>
+
+		<!--Sidebar section-->
+		<section class="sidebar">
+			<h3>Connect with Me</h3>
+
+			<!--Bar that seperates title from links below-->
+			<div class="contentseperator"></div>
+
+			<!--Social contact images links-->
+			<a href="https://github.com/jkrowden" target="_blank">
+				<img class="icon" src="./assets/images/icons/github_icon.png">
+			</a>
+			<a href="https://www.linkedin.com/in/jkrowden/" target="_blank">
+				<img class="icon" src="./assets/images/icons/linkedin_icon.png">
+			</a>
+			<a href="https://stackoverflow.com/" target="_blank">
+				<img class="icon" src="./assets/images/icons/overflow_icon.png">
+			</a>
+
+
+		</section>
+	</section>
 
 	<section class="footer">
 		<!--center copyright text-->
@@ -92,4 +118,5 @@
 	</section>
 
 </body>
+
 </html>
