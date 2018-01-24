@@ -109,7 +109,7 @@ input.message{
 	border-left: solid 25px white;
 }
 
-button.button_submit{
+button.btn_submit{
 	height: 30px;
 	width: 120px;
 	margin-left: 40px;
@@ -183,6 +183,7 @@ h1{
 	color: white;
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
+	text-shadow: 2px 2px 8px black;
 }
 
 h2, h3{
@@ -190,6 +191,7 @@ h2, h3{
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	color: #4aaaa5;
+	text-shadow: 1px 1px 5px #666666;
 }
 
 p{
